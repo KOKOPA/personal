@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thymeleaf</title>
+</head>
+<body>
+    <h1>thymeleaf Test</h1>
+    <h4>id : <span th:text="${data.id}"></span></h4>
+    <h4>pw : <span th:text="${data.pw}"></span></h4>
+    <form action="/data" method="POST">
+        ID<input type="text" name="id"/>
+        PW<input type="text" name="pw"/>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
