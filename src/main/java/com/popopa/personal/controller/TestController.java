@@ -13,6 +13,9 @@ public class TestController {
     
     @RequestMapping("/data")
     public ResponseEntity<Test> hello(@ModelAttribute Test param) {
+        if (param.getId() == null || param.getId() == "") {
+            throw new RuntimeException();
+        }
         return new ResponseEntity<>(param, HttpStatus.OK);
     }
 }
