@@ -15,7 +15,7 @@ Java, Spring boot, HTML, JS, Maven, lombok, thymeleaf
 
 - [x] 스프링 부트 서버 구축
 - [x] api 테스트
-- [ ] error 처리
+- [x] error 처리
 - [ ] JPA 추가
 - [ ] login 기능 추가
 - [ ] 게시판 CRUD 추가
@@ -25,6 +25,10 @@ Java, Spring boot, HTML, JS, Maven, lombok, thymeleaf
 # History
 
 
+#### 2021-04-28
+커스텀 error 처리 테스트 
+
+------
 
 #### 2021-04-22
 readme 추가
